@@ -3,7 +3,7 @@
  This project allows users to process images containing latitude and longitude data captured by a GeoCam. The extracted GPS coordinates are reverse-geocoded into human-readable addresses, and the results are saved in a CSV file. This CSV file can be directly imported into Google My Maps, automating the process of mapping locations.
 
  ## Features
- - Extracts latitude and longitude data from images using OCR.
+ - Extracts latitude and longitude data from images using pytesseract.
  - Reverse-geocodes GPS coordinates to obtain addresses.
  - Generates a CSV file formatted for easy import into Google My Maps.
 
@@ -11,11 +11,6 @@
 
  ### 1. Prerequisites
  - Ensure you have Python installed (>=3.7 recommended).
- - Install Tesseract-OCR on your system. For example:
-   - **Ubuntu**: `sudo apt-get install tesseract-ocr`
-   - **Arch Linux**: `sudo pacman -S tesseract`
-   - **Windows**: [Download Tesseract](https://github.com/tesseract-ocr/tesseract)
-
  ### 2. Setup the Virtual Environment
  1. Create a virtual environment:
     ```bash
