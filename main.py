@@ -5,7 +5,7 @@ import requests
 from PIL import Image
 import pytesseract
 
-API_KEY = '5ef96dd7a7c048bdb4767a911ce12407'  # Replace with your API key
+API_KEY = ''  # Replace with your API key
 API_URL = 'https://api.opencagedata.com/geocode/v1/json'  # OpenCage Geocoding API
 
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
