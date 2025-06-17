@@ -50,10 +50,7 @@
  - Create a new map or edit an existing one.
  - Import the generated CSV file.
  - Enjoy your automated map with all the locations plotted!
-
- ## Licensing
- This project is open-source and provided with no license. Feel free to use and modify it as you wish.
-
+   
  ---
 
  Happy mapping! 😊
